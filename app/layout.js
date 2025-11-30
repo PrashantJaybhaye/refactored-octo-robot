@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         </main>
 
         {/* footer */}
-        <footer>
+        <footer className="bg-muted/50 py-12">
           <div className="container mx-auto px-4 text-center text-gray-200">
             <p>© {new Date().getFullYear()} Doctors Appointment App. All rights reserved.</p>
           </div>
