@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div>
+    <div className="py-32">
       <p>Subscribe</p>
       <Button>Subscribe</Button>
     </div>
